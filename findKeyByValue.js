@@ -14,12 +14,13 @@ const findKeyByValue = function(bestTVShowsByGenre, showName) {
   }
   return undefined;
 };
+module.exports = findKeyByValue
 
-const bestTVShowsByGenre = { 
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
+// const bestTVShowsByGenre = { 
+//   sci_fi: "The Expanse",
+//   comedy: "Brooklyn Nine-Nine",
+//   drama:  "The Wire"
+// };
 
-console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"))
-console.log(findKeyByValue(bestTVShowsByGenre, "That '70s Show"))
+// console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"))
+// console.log(findKeyByValue(bestTVShowsByGenre, "That '70s Show"))

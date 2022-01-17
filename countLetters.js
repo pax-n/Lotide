@@ -22,8 +22,10 @@ const assertEqual = function(actual, expected) {
   }
   return results;
 }
+
+module.exports = countLetters
  
-console.log(countLetters('LHL'));
+// console.log(countLetters('LHL'));
 
 //  const firstNames = [
 //   "Karl",
